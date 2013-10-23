@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">android-blog</string>
+    <string name="date">Date</string>
+    <string name="title">Title</string>
+    <string name="summary">Summary</string>
+    <string name="rest_base_url">http://10.129.74.120</string>
+    <string name="back">Back</string>
+    <string name="save">Save</string>
+
+</resources>

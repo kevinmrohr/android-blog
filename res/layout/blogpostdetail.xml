@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:a="http://schemas.android.com/apk/res/android"
+              a:orientation="horizontal"
+              a:layout_width="match_parent"
+              a:layout_height="match_parent">
+
+    <TextView
+        a:id="@+id/blogdate"
+        a:textSize="11sp"
+        a:width="0px"
+        a:layout_weight="3"
+        a:layout_width="wrap_content"
+        a:layout_height="wrap_content"
+        a:layout_margin="2dp"/>
+
+    <TextView
+        a:id="@+id/blogtitle"
+        a:textSize="11sp"
+        a:width="0px"
+        a:layout_weight="3"
+        a:layout_width="wrap_content"
+        a:layout_height="wrap_content"
+        a:layout_margin="2dp"/>
+
+    <TextView
+        a:id="@+id/blogsummary"
+        a:textSize="11sp"
+        a:width="0px"
+        a:layout_weight="3"
+        a:layout_width="wrap_content"
+        a:layout_height="wrap_content"
+        a:layout_margin="2dp"/>
+
+</LinearLayout>

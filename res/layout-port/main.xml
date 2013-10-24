@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:a="http://schemas.android.com/apk/res/android"
+              a:orientation="vertical"
+              a:layout_width="fill_parent"
+              a:layout_height="fill_parent">
+
+    <fragment
+        a:id="@+id/blogListFrag"
+        a:layout_height="match_parent"
+        a:layout_width="match_parent"
+        class="org.kevinmrohr.android_blog.fragments.BlogListFrag"/>
+</LinearLayout>
+

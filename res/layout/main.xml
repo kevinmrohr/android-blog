@@ -1,16 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:a="http://schemas.android.com/apk/res/android"
-              a:orientation="vertical"
+              a:orientation="horizontal"
               a:layout_width="fill_parent"
-              a:layout_height="fill_parent">
+              a:layout_height="fill_parent"
+              a:baselineAligned="false">
 
-    <ListView
-        a:id="@+id/blogposts"
-        a:paddingRight="0dp"
-        a:layout_marginRight="0px"
-        a:width="0px"
-        a:layout_weight="2"
-        a:layout_height="0dp"
-        a:layout_width="match_parent"/>
+    <fragment
+        a:id="@+id/blogListFrag"
+        a:layout_height="match_parent"
+        a:layout_width="0dp"
+        a:width="0dp"
+        a:layout_weight="1"
+        class="org.kevinmrohr.android_blog.fragments.BlogListFrag"/>
+
+    <fragment
+        a:id="@+id/blogDetailFrag"
+        a:layout_height="match_parent"
+        a:layout_width="0dp"
+        a:width="0dp"
+        a:layout_weight="1"
+        class="org.kevinmrohr.android_blog.fragments.BlogDetailFragment"/>
 </LinearLayout>
 

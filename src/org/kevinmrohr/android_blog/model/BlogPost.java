@@ -2,7 +2,9 @@ package org.kevinmrohr.android_blog.model;
 
 import org.joda.time.DateTime;
 
-public class BlogPost implements BlogPostRow {
+import java.io.Serializable;
+
+public class BlogPost implements Serializable {
   public DateTime date;
   public String title;
   public String content;

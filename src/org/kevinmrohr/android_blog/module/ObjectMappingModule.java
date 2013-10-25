@@ -7,11 +7,11 @@ import org.codehaus.jackson.map.DeserializationConfig;
 import org.codehaus.jackson.map.ObjectMapper;
 import org.codehaus.jackson.map.module.SimpleModule;
 import org.joda.time.DateTime;
-import org.kevinmrohr.android_blog.fragments.BlogListFrag;
+import org.kevinmrohr.android_blog.fragments.BlogListFragment;
 import org.kevinmrohr.android_blog.serialization.CustomDateDeserializer;
 import org.kevinmrohr.android_blog.serialization.CustomDateSerializer;
 
-@Module(injects = BlogListFrag.class)
+@Module(injects = BlogListFragment.class)
 public class ObjectMappingModule {
   @Provides ObjectMapper objectMapper() {
     ObjectMapper mapper = new ObjectMapper();

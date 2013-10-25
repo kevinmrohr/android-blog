@@ -11,7 +11,6 @@ import android.widget.EditText;
 import android.widget.TextView;
 import butterknife.InjectView;
 import butterknife.OnClick;
-import butterknife.Optional;
 import butterknife.Views;
 import org.joda.time.format.DateTimeFormat;
 import org.joda.time.format.DateTimeFormatter;
@@ -49,12 +48,10 @@ public class BlogDetailFragment extends Fragment {
     Log.d("onSaveClick", "Saved blog!");
   }
 
-  @Optional
   @OnClick(R.id.backButton)
   public void onBackClick(View view) {
     Intent i = new Intent(view.getContext(), ListBlogsActivity.class);
     startActivity(i);
     getActivity().finish();
   }
-
 }

@@ -5,10 +5,10 @@ import android.content.Intent;
 import android.os.Bundle;
 import org.kevinmrohr.android_blog.R;
 import org.kevinmrohr.android_blog.fragments.BlogDetailFragment;
-import org.kevinmrohr.android_blog.fragments.BlogListFrag;
+import org.kevinmrohr.android_blog.fragments.BlogListFragment;
 import org.kevinmrohr.android_blog.model.BlogPost;
 
-public class ListBlogsActivity extends Activity implements BlogListFrag.BlogClickListener {
+public class ListBlogsActivity extends Activity implements BlogListFragment.BlogClickListener {
 
   @Override
   public void onCreate(Bundle savedInstanceState) {

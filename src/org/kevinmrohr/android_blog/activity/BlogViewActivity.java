@@ -21,5 +21,4 @@ public class BlogViewActivity extends Activity {
       throw new RuntimeException("Something is very wrong. How can the detail activity not have the detail fragment!?!? Busted!");
     }
   }
-
 }

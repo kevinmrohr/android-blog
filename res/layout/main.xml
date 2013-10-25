@@ -11,7 +11,7 @@
         a:layout_width="0dp"
         a:width="0dp"
         a:layout_weight="1"
-        class="org.kevinmrohr.android_blog.fragments.BlogListFrag"/>
+        class="org.kevinmrohr.android_blog.fragments.BlogListFragment"/>
 
     <fragment
         a:id="@+id/blogDetailFrag"

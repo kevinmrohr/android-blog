@@ -32,14 +32,14 @@ import java.util.*;
 
 import static java.util.Collections.reverseOrder;
 import static java.util.Collections.sort;
-import static org.kevinmrohr.android_blog.fragments.BlogListFrag.SortColumn.*;
+import static org.kevinmrohr.android_blog.fragments.BlogListFragment.SortColumn.*;
 
 /**
  * User: krohr
  * Date: 10/24/13
  * Time: 12:56 PM
  */
-public class BlogListFrag extends Fragment {
+public class BlogListFragment extends Fragment {
   @Inject ObjectMapper mapper;
   @InjectView(R.id.blogposts) ListView blogPostsListView;
 
